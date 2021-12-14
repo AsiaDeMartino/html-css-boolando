@@ -18,6 +18,7 @@
     text-align: left;
 }
 
+
 .cuore{
     width: 50px;
     height: 50px;
@@ -54,7 +55,7 @@
     padding: 4px 5px;
 }
 
-.immagine1{
+.immagine{
     position: relative;
 }
 
@@ -65,5 +66,27 @@
 
 .img1b{
     display: none;
+}
+
+.immagine:hover .img1{
+    display: none;
+}
+
+.immagine:hover .img1b{
+    display: initial;
+}
+
+.testo{
+    width: 448px;
+    height: 63px;
+    margin-top: 8px;
+}
+
+.testo span:nth-child(3){
+    color: red;
+}
+
+.testo span:nth-child(4){
+    text-decoration: line-through;
 }
 
